@@ -1,4 +1,4 @@
-image: portainer/portainer:multiarch
+image: portainer/portainer:latest
 manifests:
   - image: portainer/portainer:linux-amd64
     platform:

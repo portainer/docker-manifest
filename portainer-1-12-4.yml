@@ -1,0 +1,18 @@
+image: portainer/portainer:1.12.4
+manifests:
+  - image: portainer/portainer:linux-amd64-1.12.4
+    platform:
+      architecture: amd64
+      os: linux
+  - image: portainer/portainer:linux-arm-1.12.4
+    platform:
+      architecture: arm
+      os: linux
+  - image: portainer/portainer:linux-arm64-1.12.4
+    platform:
+      architecture: arm64
+      os: linux
+  - image: portainer/portainer:windows-amd64-1.12.4
+    platform:
+      architecture: amd64
+      os: windows

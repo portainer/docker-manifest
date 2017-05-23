@@ -1,26 +1,26 @@
-image: portainer/portainer:latest
+image: portainer/portainer:1.13.0
 manifests:
-  - image: portainer/portainer:linux-amd64
+  - image: portainer/portainer:linux-amd64-1.13.0
     platform:
       architecture: amd64
       os: linux
-  - image: portainer/portainer:linux-386
+  - image: portainer/portainer:linux-386-1.13.0
     platform:
       architecture: 386
       os: linux
-  - image: portainer/portainer:linux-arm
+  - image: portainer/portainer:linux-arm-1.13.0
     platform:
       architecture: arm
       os: linux
-  - image: portainer/portainer:linux-arm64
+  - image: portainer/portainer:linux-arm64-1.13.0
     platform:
       architecture: arm64
       os: linux
-  - image: portainer/portainer:linux-ppc64le
+  - image: portainer/portainer:linux-ppc64le-1.13.0
     platform:
       architecture: ppc64le
       os: linux
-  - image: portainer/portainer:windows-amd64
+  - image: portainer/portainer:windows-amd64-1.13.0
     platform:
       architecture: amd64
       os: windows

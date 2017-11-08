@@ -20,6 +20,10 @@ manifests:
     platform:
       architecture: ppc64le
       os: linux
+  - image: portainer/portainer:linux-s390x
+    platform:
+      architecture: s390x
+      os: linux
   - image: portainer/portainer:windows-amd64
     platform:
       architecture: amd64

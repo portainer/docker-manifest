@@ -1,0 +1,22 @@
+image: portainer/agent:latest
+manifests:
+  - image: portainer/agent:linux-amd64
+    platform:
+      architecture: amd64
+      os: linux
+  - image: portainer/agent:linux-arm
+    platform:
+      architecture: arm
+      os: linux
+  - image: portainer/agent:linux-arm64
+    platform:
+      architecture: arm64
+      os: linux
+  - image: portainer/agent:linux-ppc64le
+    platform:
+      architecture: ppc64le
+      os: linux
+  - image: portainer/agent:linux-s390x
+    platform:
+      architecture: s390x
+      os: linux

@@ -20,3 +20,15 @@ manifests:
     platform:
       architecture: s390x
       os: linux
+  - image: portainer/agent:windows-amd64
+    platform:
+      architecture: amd64
+      os: windows
+  - image: portainer/agent:windows1709-amd64
+    platform:
+      architecture: amd64
+      os: windows
+  - image: portainer/agent:windows1803-amd64
+    platform:
+      architecture: amd64
+      os: windows

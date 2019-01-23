@@ -32,3 +32,7 @@ manifests:
     platform:
       architecture: amd64
       os: windows
+  - image: portainer/agent:windows1809-amd64-1.2.1
+    platform:
+      architecture: amd64
+      os: windows
